@@ -8,6 +8,7 @@
 </head>
 <body>
 	<h1>jsp방식 구구단</h1>
+	<div>안녕하세요</div>
 	<%
 	//http://localhost:8085/m2test/jsp/gugu.jsp?dan=2
 		int dan = Integer.parseInt(request.getParameter("dan")); 
